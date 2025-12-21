@@ -1,0 +1,7 @@
+[
+    {
+        "model_name": "pipcfr",
+        "dataset": "NEWS",
+        "config": "./configs/NEWS/pipcfr.yaml"
+    }
+]

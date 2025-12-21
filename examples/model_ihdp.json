@@ -1,0 +1,7 @@
+[
+    {
+        "model_name": "pipcfr",
+        "dataset": "IHDP",
+        "config": "./configs/IHDP/pipcfr.yaml"
+    }
+]

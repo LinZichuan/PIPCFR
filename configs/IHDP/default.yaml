@@ -1,0 +1,3 @@
+# dataset path and saving path
+data_path: "data/IHDP/data/train_data_n60_notfixtestset_Ynotnormalize_loop1.npz"
+pred_output_dir: "results/IHDP"

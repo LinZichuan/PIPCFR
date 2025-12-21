@@ -1,0 +1,3 @@
+# dataset path and saving path
+data_path: "data/NEWS/data/train_T60_noise1.0_size5000_data_1_normalize.npz"
+pred_output_dir: "results/NEWS"

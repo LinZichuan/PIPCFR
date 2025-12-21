@@ -1,0 +1,113 @@
+# experiments
+n_experiments: 50
+num_samples: null
+train_rate: 0.6
+val_rate: 0.2
+seed: 42
+next_util_rate: 1.0
+feature_util_rate: 1.0
+
+
+# training
+lr: 0.001
+decay_rate: 0.95
+decay_step_size: 1
+l2: 0.001
+model_name: "pipcfr"
+batch_size: 128
+epochs: 1000
+device: 'cpu'  # 'cuda:0'
+early_stop_patience: 10
+early_stop_mindelta: 0.0
+verbose: 1
+log_step: 1
+use_y_scaler: false
+eval_step: 10
+do_rate: 0.1
+optim: 'Adam'
+fix_testset: false
+
+# model setting for Rep. Learners & Dragonnet
+share_dim: 128
+base_dim: 64
+reweight_sample: null
+valid_metrics: 'pehe'
+share_rep: false
+prpsy_indep: true
+prpsy_w: 1
+h1_w: 1
+h0_w: 1
+cf_w: 1
+f_w: 1
+all_y_w: 1
+all_prpsy_w: 1
+hs_kl_w: 1
+align_w: 2
+teacher_model_name: 'cfrnet'
+tarreg: false. # target Reg. for Dragonnet
+imb_dist: "mmd" # IPM for CFRNet or DRCFR
+imb_dist_w: 0
+hs_imb_dist: "mmd"
+hs_imb_dist_w: 1
+BatchNorm1d: true
+normalization: "divide"
+tarreg_w: 1
+
+use_transformer: false # use transformer or not
+num_heads: 4
+num_layers: 1
+hidden_dim: 32
+
+# model setting for Meta Learners and CRF
+k_folds: 2
+meta_epochs: 25
+meta_base_learner: "xgb"
+meta_learning_rate_init: 0.1
+meta_early_stopping: true
+meta_clip_v: 0.01
+crf_criterion: "standard_mse"
+min_samples_leaf: 60
+groups_penalty: 0.2
+groups_cnt: True
+max_depth: 3
+
+# model setting for matching methods
+binary_y: false
+n_layers_r: 3
+n_units_out: 100
+penalty_l2: 1
+step_size: 0.0001
+input_S: false
+n_units_r: 200
+n_layers_out: 2
+n_iter: 1000
+val_split_prop: 0.3
+early_stopping: 'true'
+patience: 10
+n_iter_min: 200
+n_iter_print: 50
+reg_diff: 'false'
+penalty_diff: 1
+same_init: 'false'
+nonlin: "elu"
+penalty_disc: 0
+dynamic_phi: 'false'
+
+# model setting for ESCFR
+ot: 'uot'
+lambda: 1.0
+ot_scale: 0.1
+epsilon: 1.0
+kappa: 1.0
+gamma: 0.0005
+ot_joint_bp: 'true'
+model: 'ylearner'
+stop_epoch: 30
+batchSize: 32
+l2_reg: 0.0001
+dropout: 0
+treat_embed: 'true'
+
+# dataset path and saving path
+pred_output_dir: "results/"
+summary_base_dir: null

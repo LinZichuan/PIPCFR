@@ -1,0 +1,233 @@
+[
+    {
+        "model_name": "pipcfr",
+        "dataset": "synthetic",
+        "config": "./configs/synthetic/pipcfr.yaml",
+        "params": {
+            "use_transformer": true,
+            "data_path": "data/synthetic/data/train_data_v8_numexp100_depFalse_n1_x10_v10_m10_a10_noise_scale1.0_A_noise_scale1.0_vsteps5_normalize_onlyVMA_XdependA_notfixtestset_save_scaler_lastrate0.05_outcomenoise1.0.npz",
+            "pred_output_dir": "results/synthetic/pipcfr/n1_noise1.0/",
+            "device": "cuda:0"
+        }
+    },
+    {
+        "model_name": "pipcfr",
+        "dataset": "synthetic",
+        "config": "./configs/synthetic/pipcfr.yaml",
+        "params": {
+            "use_transformer": true,
+            "data_path": "data/synthetic/data/train_data_v8_numexp100_depFalse_n20_x10_v10_m10_a10_noise_scale1.0_A_noise_scale1.0_vsteps5_normalize_onlyVMA_XdependA_notfixtestset_save_scaler_lastrate0.05_outcomenoise1.0.npz",
+            "pred_output_dir": "results/synthetic/pipcfr/n20_noise1.0/",
+            "device": "cuda:1"
+        }
+    },
+    {
+        "model_name": "pipcfr",
+        "dataset": "synthetic",
+        "config": "./configs/synthetic/pipcfr.yaml",
+        "params": {
+            "use_transformer": true,
+            "data_path": "data/synthetic/data/train_data_v8_numexp100_depFalse_n40_x10_v10_m10_a10_noise_scale1.0_A_noise_scale1.0_vsteps5_normalize_onlyVMA_XdependA_notfixtestset_save_scaler_lastrate0.05_outcomenoise1.0.npz",
+            "pred_output_dir": "results/synthetic/pipcfr/n40_noise1.0/",
+            "device": "cuda:2"
+        }
+    },
+    {
+        "model_name": "pipcfr",
+        "dataset": "synthetic",
+        "config": "./configs/synthetic/pipcfr.yaml",
+        "params": {
+            "use_transformer": true,
+            "data_path": "data/synthetic/data/train_data_v8_numexp100_depFalse_n60_x10_v10_m10_a10_noise_scale1.0_A_noise_scale1.0_vsteps5_normalize_onlyVMA_XdependA_notfixtestset_save_scaler_lastrate0.05_outcomenoise1.0.npz",
+            "pred_output_dir": "results/synthetic/pipcfr/n60_noise1.0/",
+            "device": "cuda:3"
+        }
+    },
+    {
+        "model_name": "pipcfr",
+        "dataset": "synthetic",
+        "config": "./configs/synthetic/pipcfr.yaml",
+        "params": {
+            "use_transformer": true,
+            "data_path": "data/synthetic/data/train_data_v8_numexp100_depFalse_n80_x10_v10_m10_a10_noise_scale1.0_A_noise_scale1.0_vsteps5_normalize_onlyVMA_XdependA_notfixtestset_save_scaler_lastrate0.05_outcomenoise1.0.npz",
+            "pred_output_dir": "results/synthetic/pipcfr/n80_noise1.0/",
+            "device": "cuda:4"
+        }
+    },
+    {
+        "model_name": "pipcfr",
+        "dataset": "synthetic",
+        "config": "./configs/synthetic/pipcfr.yaml",
+        "params": {
+            "use_transformer": true,
+            "data_path": "data/synthetic/data/train_data_v8_numexp100_depFalse_n100_x10_v10_m10_a10_noise_scale1.0_A_noise_scale1.0_vsteps5_normalize_onlyVMA_XdependA_notfixtestset_save_scaler_lastrate0.05_outcomenoise1.0.npz",
+            "pred_output_dir": "results/synthetic/pipcfr/n100_noise1.0/",
+            "device": "cuda:5"
+        }
+    },
+    {
+        "model_name": "pipcfr",
+        "dataset": "synthetic",
+        "config": "./configs/synthetic/pipcfr.yaml",
+        "params": {
+            "use_transformer": true,
+            "data_path": "data/synthetic/data/train_data_v8_numexp100_depFalse_n60_x10_v10_m10_a10_noise_scale2.0_A_noise_scale2.0_vsteps5_normalize_onlyVMA_XdependA_notfixtestset_save_scaler_lastrate0.05_outcomenoise2.0.npz", 
+            "pred_output_dir": "results/synthetic/pipcfr/n60_noise2.0/",
+            "device": "cuda:6"
+        }
+    },
+    {
+        "model_name": "pipcfr",
+        "dataset": "synthetic",
+        "config": "./configs/synthetic/pipcfr.yaml",
+        "params": {
+            "use_transformer": true,
+            "data_path": "data/synthetic/data/train_data_v8_numexp100_depFalse_n60_x10_v10_m10_a10_noise_scale3.0_A_noise_scale3.0_vsteps5_normalize_onlyVMA_XdependA_notfixtestset_save_scaler_lastrate0.05_outcomenoise3.0.npz", 
+            "pred_output_dir": "results/synthetic/pipcfr/n60_noise3.0/",
+            "device": "cuda:7"
+        }
+    },
+    {
+        "model_name": "pipcfr",
+        "dataset": "synthetic",
+        "config": "./configs/synthetic/pipcfr.yaml",
+        "params": {
+            "use_transformer": true,
+            "data_path": "data/synthetic/data/train_data_v8_numexp100_depFalse_n60_x10_v10_m10_a10_noise_scale4.0_A_noise_scale4.0_vsteps5_normalize_onlyVMA_XdependA_notfixtestset_save_scaler_lastrate0.05_outcomenoise4.0.npz", 
+            "pred_output_dir": "results/synthetic/pipcfr/n60_noise4.0/",
+            "device": "cuda:0"
+        }
+    },
+    {
+        "model_name": "pipcfr",
+        "dataset": "synthetic",
+        "config": "./configs/synthetic/pipcfr.yaml",
+        "params": {
+            "use_transformer": true,
+            "data_path": "data/synthetic/data/train_data_v8_numexp100_depFalse_n60_x10_v10_m10_a10_noise_scale5.0_A_noise_scale5.0_vsteps5_normalize_onlyVMA_XdependA_notfixtestset_save_scaler_lastrate0.05_outcomenoise5.0.npz", 
+            "pred_output_dir": "results/synthetic/pipcfr/n60_noise5.0/",
+            "device": "cuda:1"
+        }
+    },
+    
+    {
+        "model_name": "pipcfr",
+        "dataset": "synthetic",
+        "config": "./configs/synthetic/pipcfr.yaml",
+        "params": {
+            "hs_imb_dist": "wass",
+            "use_transformer": true,
+            "data_path": "data/synthetic/data/train_data_v8_numexp100_depFalse_n1_x10_v10_m10_a10_noise_scale1.0_A_noise_scale1.0_vsteps5_normalize_onlyVMA_XdependA_notfixtestset_save_scaler_lastrate0.05_outcomenoise1.0.npz",
+            "pred_output_dir": "results/synthetic/pipcfr_wass/n1_noise1.0/",
+            "device": "cuda:2"
+        }
+    },
+    {
+        "model_name": "pipcfr",
+        "dataset": "synthetic",
+        "config": "./configs/synthetic/pipcfr.yaml",
+        "params": {
+            "hs_imb_dist": "wass",
+            "use_transformer": true,
+            "data_path": "data/synthetic/data/train_data_v8_numexp100_depFalse_n20_x10_v10_m10_a10_noise_scale1.0_A_noise_scale1.0_vsteps5_normalize_onlyVMA_XdependA_notfixtestset_save_scaler_lastrate0.05_outcomenoise1.0.npz",
+            "pred_output_dir": "results/synthetic/pipcfr_wass/n20_noise1.0/",
+            "device": "cuda:3"
+        }
+    },
+    {
+        "model_name": "pipcfr",
+        "dataset": "synthetic",
+        "config": "./configs/synthetic/pipcfr.yaml",
+        "params": {
+            "hs_imb_dist": "wass",
+            "use_transformer": true,
+            "data_path": "data/synthetic/data/train_data_v8_numexp100_depFalse_n40_x10_v10_m10_a10_noise_scale1.0_A_noise_scale1.0_vsteps5_normalize_onlyVMA_XdependA_notfixtestset_save_scaler_lastrate0.05_outcomenoise1.0.npz",
+            "pred_output_dir": "results/synthetic/pipcfr_wass/n40_noise1.0/",
+            "device": "cuda:4"
+        }
+    },
+    {
+        "model_name": "pipcfr",
+        "dataset": "synthetic",
+        "config": "./configs/synthetic/pipcfr.yaml",
+        "params": {
+            "hs_imb_dist": "wass",
+            "use_transformer": true,
+            "data_path": "data/synthetic/data/train_data_v8_numexp100_depFalse_n60_x10_v10_m10_a10_noise_scale1.0_A_noise_scale1.0_vsteps5_normalize_onlyVMA_XdependA_notfixtestset_save_scaler_lastrate0.05_outcomenoise1.0.npz",
+            "pred_output_dir": "results/synthetic/pipcfr_wass/n60_noise1.0/",
+            "device": "cuda:5"
+        }
+    },
+    {
+        "model_name": "pipcfr",
+        "dataset": "synthetic",
+        "config": "./configs/synthetic/pipcfr.yaml",
+        "params": {
+            "hs_imb_dist": "wass",
+            "use_transformer": true,
+            "data_path": "data/synthetic/data/train_data_v8_numexp100_depFalse_n80_x10_v10_m10_a10_noise_scale1.0_A_noise_scale1.0_vsteps5_normalize_onlyVMA_XdependA_notfixtestset_save_scaler_lastrate0.05_outcomenoise1.0.npz",
+            "pred_output_dir": "results/synthetic/pipcfr_wass/n80_noise1.0/",
+            "device": "cuda:6"
+        }
+    },
+    {
+        "model_name": "pipcfr",
+        "dataset": "synthetic",
+        "config": "./configs/synthetic/pipcfr.yaml",
+        "params": {
+            "hs_imb_dist": "wass",
+            "use_transformer": true,
+            "data_path": "data/synthetic/data/train_data_v8_numexp100_depFalse_n100_x10_v10_m10_a10_noise_scale1.0_A_noise_scale1.0_vsteps5_normalize_onlyVMA_XdependA_notfixtestset_save_scaler_lastrate0.05_outcomenoise1.0.npz",
+            "pred_output_dir": "results/synthetic/pipcfr_wass/n100_noise1.0/",
+            "device": "cuda:7"
+        }
+    },
+    {
+        "model_name": "pipcfr",
+        "dataset": "synthetic",
+        "config": "./configs/synthetic/pipcfr.yaml",
+        "params": {
+            "hs_imb_dist": "wass",
+            "use_transformer": true,
+            "data_path": "data/synthetic/data/train_data_v8_numexp100_depFalse_n60_x10_v10_m10_a10_noise_scale2.0_A_noise_scale1.0_vsteps5_normalize_onlyVMA_XdependA_notfixtestset_save_scaler_lastrate0.05_outcomenoise1.0.npz", 
+            "pred_output_dir": "results/synthetic/pipcfr_wass/n60_noise2.0/",
+            "device": "cuda:0"
+        }
+    },
+    {
+        "model_name": "pipcfr",
+        "dataset": "synthetic",
+        "config": "./configs/synthetic/pipcfr.yaml",
+        "params": {
+            "hs_imb_dist": "wass",
+            "use_transformer": true,
+            "data_path": "data/synthetic/data/train_data_v8_numexp100_depFalse_n60_x10_v10_m10_a10_noise_scale3.0_A_noise_scale1.0_vsteps5_normalize_onlyVMA_XdependA_notfixtestset_save_scaler_lastrate0.05_outcomenoise1.0.npz", 
+            "pred_output_dir": "results/synthetic/pipcfr_wass/n60_noise3.0/",
+            "device": "cuda:1"
+        }
+    },
+    {
+        "model_name": "pipcfr",
+        "dataset": "synthetic",
+        "config": "./configs/synthetic/pipcfr.yaml",
+        "params": {
+            "hs_imb_dist": "wass",
+            "use_transformer": true,
+            "data_path": "data/synthetic/data/train_data_v8_numexp100_depFalse_n60_x10_v10_m10_a10_noise_scale4.0_A_noise_scale1.0_vsteps5_normalize_onlyVMA_XdependA_notfixtestset_save_scaler_lastrate0.05_outcomenoise1.0.npz", 
+            "pred_output_dir": "results/synthetic/pipcfr_wass/n60_noise4.0/",
+            "device": "cuda:2"
+        }
+    },
+    {
+        "model_name": "pipcfr",
+        "dataset": "synthetic",
+        "config": "./configs/synthetic/pipcfr.yaml",
+        "params": {
+            "hs_imb_dist": "wass",
+            "use_transformer": true,
+            "data_path": "data/synthetic/data/train_data_v8_numexp100_depFalse_n60_x10_v10_m10_a10_noise_scale5.0_A_noise_scale1.0_vsteps5_normalize_onlyVMA_XdependA_notfixtestset_save_scaler_lastrate0.05_outcomenoise1.0.npz", 
+            "pred_output_dir": "results/synthetic/pipcfr_wass/n60_noise5.0/",
+            "device": "cuda:3"
+        }
+    }
+]

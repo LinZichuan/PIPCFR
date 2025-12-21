@@ -1,0 +1,12 @@
+epochs: 100
+
+prpsy_w: 3
+h1_w: 10
+h0_w: 10
+cf_w: 10
+f_w: 10
+all_y_w: 10
+all_prpsy_w: 3
+hs_kl_w: 10
+hs_imb_dist_w: 10
+align_w: 10

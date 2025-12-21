@@ -1,0 +1,4 @@
+# dataset path and saving path
+use_y_scaler: true
+data_path: "data/synthetic/data/train_data_v8_numexp100_depFalse_n60_x10_v10_m10_a10_noise_scale1.0_A_noise_scale1.0_vsteps50_normalize_onlyVMA_XdependA_notfixtestset_save_scaler_lastrate0.05_outcomenoise1.0.npz"
+pred_output_dir: "results/Synthetic"

@@ -1,0 +1,15 @@
+geomloss
+numpy
+pandas
+scikit-learn
+scikit-uplift
+torch
+tensorboard
+scikit-optimize
+POT
+causalml
+seaborn
+tqdm
+pyyaml
+scikit-optimize
+loguru

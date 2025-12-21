@@ -1,0 +1,5 @@
+epochs: 1000
+
+prpsy_w: 2
+all_prpsy_w: 2
+hs_kl_w: 2
