@@ -1,4 +1,8 @@
-## Requirements and setup
+# PIPCFR: Pseudo-outcome Imputation with Post-treatment Variables for Individual Treatment Effect Estimation
+
+<!-- <a href='https://arxiv.org/abs/2512.03794'><img src='https://img.shields.io/badge/Paper-Arxiv-red'></a> -->
+
+## Installation
 
 You will need to install:
 - geomloss==0.2.4
@@ -21,7 +25,7 @@ The dependencies for Pairnet and ESCFR from github:
 git clone https://github.com/nlokeshiisc/pairnet_release.git
 ```
 
-## Generate Data
+## Generate Training Data
 
 **IHDP**
 ```
@@ -44,7 +48,7 @@ bash generate.sh
 cd ..
 ```
 
-## Run the Experiments
+## Run Experiments
 
 Run experiments for NEWS dataset
 ```
@@ -62,3 +66,20 @@ MODELS_JSON='./examples/model_synthetic.json' python run_experiment.py
 ```
 
 `MODELS_JSON` is the configure information of models. You can add model in `./examples/`. 
+
+
+## Citation
+
+If you find this project useful in your research, please consider citing:
+
+<!-- ```bibtex
+@article{lin2025adapt,
+  title={AdaptVision: Efficient Vision-Language Models via Adaptive Visual Acquisition},
+  author={Zichuan Lin and Yicheng Liu and Yang Yang and Lvfang Tao and Deheng Ye},
+  journal={arXiv preprint arXiv:2512.03794},
+  year={2025}
+}
+``` -->
+
+## License
+- PIPCFR is licensed under the Apache License 2.0. 
