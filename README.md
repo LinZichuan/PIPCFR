@@ -1,6 +1,8 @@
 # PIPCFR: Pseudo-outcome Imputation with Post-treatment Variables for Individual Treatment Effect Estimation
 
-<a href='https://arxiv.org/abs/2512.18737'><img src='https://img.shields.io/badge/Paper-Arxiv-red'></a>
+<!-- <a href=''><img src='https://img.shields.io/badge/Paper-Arxiv-red'></a> -->
+
+[![Paper](https://img.shields.io/badge/Paper-Arxiv%20Link-light)](https://arxiv.org/abs/2512.18737)
 
 ## Installation
 
